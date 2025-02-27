@@ -1,4 +1,4 @@
-name: your actions name
+name: Sync Action 
 
 on:
   schedule:
@@ -8,7 +8,7 @@ on:
 jobs:
   sync-s3-to-calendar:
     runs-on: ubuntu-latest
-
+ß
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
